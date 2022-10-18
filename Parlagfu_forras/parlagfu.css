@@ -19,3 +19,13 @@ margin: 0 auto;
     padding: 1px;
     margin: 0 auto;
 }
+#masodiksor{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.kep{
+    float: right;
+}
