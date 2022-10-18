@@ -1,0 +1,21 @@
+body{
+    background-color: #9cee59;
+    color: black;
+}
+a, a:link, a:hover, a:visited, a:active {
+    color: #999999;
+}
+table{
+ width: 980px;
+ margin: 0px;
+ padding: 0px;
+ background-color: #509050;
+margin: 0 auto;
+}
+#masiktabla{
+    width: 940px;
+    background-color: white;
+    margin: 0px;
+    padding: 1px;
+    margin: 0 auto;
+}
