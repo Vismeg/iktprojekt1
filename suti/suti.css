@@ -24,6 +24,9 @@ input{
 }
 body{
     font-family: cursive;
+    text-align: justify;
+    background-image: url(hatter.jpg);
+    background-repeat: no-repeat;
 }
 
 }
