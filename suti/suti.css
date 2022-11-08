@@ -3,9 +3,11 @@
     border-style: none solid;
 	border-color:gray;
     border-width: 20px;
+    width: 70%;
+    padding: 20px;
 }
 .ritka{
-    
+   letter-spacing: 4px;
 }
 #kep{
     width:40%;
@@ -16,6 +18,8 @@
     border-radius: 10px;
     border-style: solid;
     float: right;
+    margin: 30px;
+    border: 3px;
 }
 input{
     font-family:cursive; 
@@ -27,6 +31,10 @@ body{
     text-align: justify;
     background-image: url(hatter.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
-
+ul{
+    font-weight: bold;
+    font-style: italic;
+    list-style: square;
 }
