@@ -52,4 +52,17 @@ def ciklus1():
         if(i%2==0):
             print(i)
 
-ciklus1()
+#ciklus1()
+
+def ciklus2():
+    for i in reversed(range(1,11)):
+        print(i)
+
+#ciklus2()
+
+def ciklus3():
+    for i in range(10,0,-1):
+        if i%2!=0:
+            print(i)
+#ciklus3()
+        
