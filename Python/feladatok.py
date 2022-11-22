@@ -66,3 +66,28 @@ def ciklus3():
             print(i)
 #ciklus3()
         
+def ciklus4():
+    number=int(input("Kérem az ismétlések számát!"))
+    text=input("Kérem az ismétlődő szöveget!")
+
+    for i in range(number):
+        print(text)
+#ciklus4()
+
+def ciklus5():
+    number=1
+    while number%2!=0:
+        number=int(input("Kérek egy számot"))
+#ciklus5()
+
+def ciklus6():
+    db=int(0)
+    for i in range(20):
+        rnd=random.randrange(1,13)
+        if (rnd%3==0):
+            print(rnd)
+            db=db+1
+    print("Hárommal osztható számok száma")        
+    print(db)
+
+ciklus6()
