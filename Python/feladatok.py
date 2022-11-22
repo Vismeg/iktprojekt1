@@ -47,3 +47,9 @@ def feladat3():
 
 #feladat3()
 
+def ciklus1():
+    for i in range(1,11):
+        if(i%2==0):
+            print(i)
+
+ciklus1()
