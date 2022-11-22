@@ -10,7 +10,17 @@ def feladat1():
 
 #feladat1()
 
-def feladat2 
+def feladat2():
+    
+    try:
+        number=int(input("Kérem a számot!"))
 
-
+        if number%2==0:
+            print("Aszám páros.")
+        else:
+            print("A szám páratlan.")
+    except:
+        print("nem jó értéket adtál meg.")
+        
+feladat2()
 
