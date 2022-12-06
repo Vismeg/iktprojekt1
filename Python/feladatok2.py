@@ -127,7 +127,24 @@ def feladat6():
     b=int(input("Kerem b értékét:"))
     c=int(input("Kerem c értékét:"))"""
 
-feladat6()
+#feladat6()
+
+#Írj egy Python programot, amely bekér két szót (sztringet) a felhasználótól és ABC sorrendben kiírja őket a képernyőre!
+
+def feladat7():
+    tomb =[]
+
+    for i in range(2):
+        tomb.append(input("kérem a szót: "))
+
+        tomb.sort()
+        
+    for i in range(2):
+        print(tomb[i])
+
+feladat7()
+
+
 
         
 
